@@ -1,5 +1,25 @@
 <Style name="roads-casing">
 
+	<Rule>
+		&maxscale_zoom9;
+		&minscale_zoom9;
+		<Filter>[highway] = 'unclassified'</Filter>
+		<LineSymbolizer stroke="red" stroke-width="1.6" />
+	</Rule>
+	<Rule>
+		&maxscale_zoom10;
+		&minscale_zoom10;
+		<Filter>[highway] = 'unclassified'</Filter>
+		<LineSymbolizer stroke="red" stroke-width="1.6" />
+	</Rule>
+	<Rule>
+		&maxscale_zoom11;
+		&minscale_zoom11;
+		<Filter>[highway] = 'unclassified'</Filter>
+		<LineSymbolizer stroke="red" stroke-width="1.6" />
+	</Rule>
+
+
 <!-- zoom 11 -->
 	<Rule>
 		&maxscale_zoom11;
