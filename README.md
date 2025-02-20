@@ -1,3 +1,12 @@
+This is an attempt to prepare a local tile server based on the Opentopomap docker image that can be found here:
+https://github.com/lukey78/otm-docker
+
+The reason was to make smaller roads visible in lower zoom levels in sparsely populated areas like the scandinavian backcountry, to
+enable better route planning for bikepacking and long distance cycling trips.
+This is normaly absolutely not what you want for most other areas, since it will heavily pollute the tiles with small roads.
+For bikepacking tours, however, it is handy to have a map to see if there are any continous roads or any tracks
+that connect through short sections of hiking trails.
+
 # Opentopomap server
 
 This is a docker setup for a "quick" install of a server like opentopomap.org.
